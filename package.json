@@ -1,0 +1,18 @@
+{
+  "name": "taskflow-unified",
+  "version": "1.0.0",
+  "description": "Unified build and start for TaskFlow",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "build": "npm run build-frontend && npm run install-backend",
+    "build-frontend": "cd frontend && npm install && npm run build",
+    "install-backend": "cd backend && npm install",
+    "dev": "concurrently \"npm run dev-backend\" \"npm run dev-frontend\"",
+    "dev-backend": "cd backend && npm run dev",
+    "dev-frontend": "cd frontend && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
