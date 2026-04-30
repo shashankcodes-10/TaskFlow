@@ -27,7 +27,7 @@ The application enables users to create and join projects, assign tasks, and tra
 * Frontend: React.js, Tailwind CSS
 * Backend: Node.js, Express.js
 * Database: MongoDB
-* Authentication: JWT, bcrypt
+* Authentication: JWT
 
 ---
 
