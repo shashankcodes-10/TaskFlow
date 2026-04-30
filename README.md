@@ -50,14 +50,21 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 ```
 
+
+🔑 Evaluator Test Credentials
+
+To evaluate the application and test the RBAC (Role-Based Access Control) boundaries, please use the following configured accounts:
+
 | Role         | Email                                                       | Password   |
 | ------------ | ---------------------------------------------------------   | ---------- |
 |  Admin       | [u10shashank@gmail.com](mailto:u10shashank@gmail.com)       | 6674020511 |
 | Member       | [sachinpathak4@gmail.com](mailto:sachinpathak4@gmail.com)   | 6674020511 |
 | Member       | [rocky11@gmail.com](mailto:rocky11@gmail.com)               | 6674020511 |
 
-
-
+💡 Notes:
+The Admin account has full access (project creation, task assignment, member management).
+Members can view assigned tasks and update their status.
+These credentials are provided strictly for testing RBAC functionality.
 
 ## 🙌 Conclusion
 
