@@ -50,6 +50,11 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 ```
 
+| Role         | Email                                                       | Password   |
+| ------------ | ---------------------------------------------------------   | ---------- |
+|  Admin       | [u10shashank@gmail.com](mailto:u10shashank@gmail.com)       | 6674020511 |
+| Member       | [sachinpathak4@gmail.com](mailto:sachinpathak4@gmail.com)   | 6674020511 |
+| Member       | [rocky11@gmail.com](mailto:rocky11@gmail.com)               | 6674020511 |
 
 
 
